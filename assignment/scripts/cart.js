@@ -10,6 +10,8 @@ function addItem(item) {
 //? testing some code
 console.log(`I have ${basket} in my basket`); // should display nothing
 // Adding eggs to basket
+// We've added 'eggs' to the basket while also setting the 
+// result value to the return value of the function
 let result = addItem('eggs');
 
 console.log(`Do you have food in basket?`, result);
