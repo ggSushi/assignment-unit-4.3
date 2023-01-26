@@ -17,18 +17,18 @@ In this section we will write some functions that might be used in a simple cart
 ### Required Features
 Update the `cart.js` file to do the following:
 
-- Create a global variable named `basket` and set it to an empty array.
+-! Create a global variable named `basket` and set it to an empty array.
 
-- Create a function called `addItem`. It should:
+-! Create a function called `addItem`. It should:
   - take an input parameter for a string `item`
   - add the new item to the global array `basket`. 
   - return `true` indicating the item was added
 
-- Create a function called `listItems`. It should:
+-! Create a function called `listItems`. It should:
   - loop over the items in the `basket` array
   - console.log each individual item on a new line
 
-- Create a function called `empty`. It should:
+-! Create a function called `empty`. It should:
   - reset the `basket` to an empty array
 
 > __IMPORTANT__
