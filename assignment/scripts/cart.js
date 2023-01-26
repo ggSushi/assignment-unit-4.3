@@ -76,3 +76,14 @@ console.log(`I have ${basket} in my basket`);
 addItem('toys');
 console.log(`I have ${basket} in my basket`);
 
+
+//last stretch goal. Needs to get worked on.
+/*
+function removeItem() {
+
+}
+*/
+
+
+
+
