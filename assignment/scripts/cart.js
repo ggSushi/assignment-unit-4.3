@@ -78,12 +78,20 @@ console.log(`I have ${basket} in my basket`);
 
 
 //last stretch goal. Needs to get worked on.
-/*
-function removeItem() {
 
+function removeItem(item) {
+    let removedItems = [];
+    for (i=0; i < basket.length; i++) {
+        if (item === basket[i]) {
+            return basket.splice(i, 1);
+        }
+    }
+    return `null`;
 }
-*/
-
+console.log(`Removing this item:`, removeItem('milk'));
+//testing for multiple values
+console.log(`Removing this item:`, removeItem('ramen'));
+console.log(`Removing this item:`, removeItem('yogurt'));
 
 
 
